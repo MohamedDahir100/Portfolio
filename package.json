@@ -1,23 +1,13 @@
 {
   "homepage": "https://mohameddahir100.github.io/Portfolio/",
-  
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
-    "@react-three/drei": "^9.112.0",
-    "@react-three/fiber": "^8.17.7",
     "framer-motion": "^11.5.4",
-    "maath": "^0.10.8",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.2",
-    "react-tilt": "^1.0.2",
-    "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.168.0"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -36,12 +26,11 @@
     "vite": "^5.4.1"
   },
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
-
 }
